@@ -1,0 +1,33 @@
+
+@media (max-width: 600px) {
+    .sold-popup{
+        width: calc(80%) !important;
+    }
+
+}
+.img-card{
+    width: 600px;
+    height: 400px;
+}
+.empty-card{
+    width: calc(98%);
+    height: calc(97vh);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    background: white;
+    box-shadow: 0 0 10px 0 rgba(196,191,191,0.55);
+}
+.divs{
+
+    width: calc(100%);
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: calc(100%) !important;
+    padding: 0 !important;
+    
+}

@@ -1,0 +1,112 @@
+.avForm{
+    width: calc(94%);
+    height: 60px;
+    border-radius: 10px;
+    margin-top:1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Mukta', sans-serif !important;
+    color: rgba(149, 147, 147, 0.82) !important;
+    font-size: 19px !important;
+}
+.labels{
+
+    height: 40px;
+    display: flex;
+    width: calc(94%);
+    margin: auto;
+    align-items: center;
+    color: #585858;
+    padding-left: 9px;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    font-family: 'Mukta', sans-serif !important;
+}
+.avForm-1{
+    width: calc(94%);
+    margin-top:1rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: calc(147px);
+    border-radius: 10px;
+    font-size: 19px !important;
+    font-family: 'Mukta', sans-serif !important;
+}
+.avForm-2{
+    width: calc(93%);
+    margin: 1rem auto;
+    height: calc(61px);
+    border-radius: 10px;
+    font-size: 19px !important;
+    font-family: 'Mukta', sans-serif !important;
+}
+.invalid-feedback{
+    display: none !important;
+}
+.form-block{
+    width: calc(100%);
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: rgba(239,236,236,0.36);
+    height: calc(100%) !important;
+    padding: 0 !important;
+
+}
+.form-block-1{
+    display: none;
+}
+@media(max-width: 600px){
+.form-block{
+    display: none;
+    overflow-x: hidden;
+}
+    .form-block-1{
+        display: block;
+    }
+}
+.form-img{
+    width: calc(90%);
+    height: 90%;
+    margin: auto !important;
+    border-radius: 10px;
+}
+.img-div{
+    width: calc(98%);
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-input-img{
+    width: calc(100%);
+    height: calc(35vh);
+}
+.loaders{
+    width: calc(90vw);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ggg{
+   position: absolute;
+    right: 1rem;
+    font-size: 22px;
+   top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cdcaca;
+    transform: rotate(90deg) !important;
+    transition: 0.4s linear;
+}
+.ggg:hover{
+    transition: 0.4s linear;
+     color: red;
+    cursor: pointer;
+    transform: rotate(-90deg) !important;
+}

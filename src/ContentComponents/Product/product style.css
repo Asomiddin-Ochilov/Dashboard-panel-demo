@@ -1,0 +1,74 @@
+
+.rows{
+    width: calc(100%);
+    height: calc(100%);
+
+}
+@media(max-width: 600px){
+.box-modal{
+    width: calc(95%) !important;
+}
+    .delete-box{
+        width: calc(80%) !important;
+    }
+}
+@media(min-width: 600px) and  (max-width: 800px){
+    .box-modal{
+        width: calc(80%) !important;
+    }
+}
+@media(min-width: 800px) and  (max-width: 1100px){
+    .box-modal{
+        width: calc(60%) !important;
+    }
+}
+.icons{
+    width: calc(100%);
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: #F8B87F;
+}
+.delete-tex{
+    width: calc(100%);
+    height: 80px;
+    display: flex;
+    text-align: center;
+    align-items: center !important;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 1rem;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.delete-btn{
+    width: calc(100%);
+    height: 80px;
+    display: flex;
+    align-items: end;
+    font-size: 30px;
+    justify-content: center;
+}
+.loders-edit{
+
+    width: calc(90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+}
+.Description{
+    width:100%;
+    overflow: hidden;
+    display: flex !important;
+    font-family: 'Mukta', sans-serif !important;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 20px;
+    justify-content: center ;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+}
+.Description > p{
+    margin: 0 !important;
+}
